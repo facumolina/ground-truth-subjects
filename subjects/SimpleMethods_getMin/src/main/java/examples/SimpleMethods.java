@@ -16,7 +16,7 @@ public class SimpleMethods {
         } else {
             result = b;
         }
-        assert ((a<=b && result==a)||(a<b && result==b));
+        assert ((a<=b && result==a)||(a>b && result==b));
         return result;
     }
 }
