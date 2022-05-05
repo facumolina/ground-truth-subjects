@@ -1,0 +1,2 @@
+(old_currentSize == currentSize - 1);
+(theArray[back] == x);

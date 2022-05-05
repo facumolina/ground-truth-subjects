@@ -1,0 +1,1 @@
+(result==old_top && old_topOfStack==topOfStack+1);

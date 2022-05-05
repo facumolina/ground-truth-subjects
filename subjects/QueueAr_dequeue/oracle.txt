@@ -1,0 +1,2 @@
+(old_isEmpty || (old_currentSize == currentSize + 1)); // size decreased
+(old_isEmpty || (result == theArray[old_front])); // result is previous front
