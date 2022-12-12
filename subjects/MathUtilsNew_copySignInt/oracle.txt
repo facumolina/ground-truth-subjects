@@ -1,1 +1,1 @@
-(true);
+Returns the first argument with the sign of the second argument.

@@ -1,1 +1,2 @@
-(true);
+k not in keys
+old(keys)[result] = k

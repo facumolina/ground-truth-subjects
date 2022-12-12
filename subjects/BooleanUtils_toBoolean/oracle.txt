@@ -1,1 +1,2 @@
-(true);
+(value = trueValue) implies result
+(value = falseValue) implies !result

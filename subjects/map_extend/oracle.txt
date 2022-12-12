@@ -1,1 +1,3 @@
-(true);
+k in keys
+v in data
+keys[result] = k and data[result] = v

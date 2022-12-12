@@ -87,8 +87,7 @@ public class StackAr
         if( isEmpty( ) )
             throw new Underflow( );
         theArray[ topOfStack-- ] = null;
-    assert(theArray[old_topOfStack] == null);
-	assert(topOfStack==old_topOfStack-1);
+    assert(true);
     }
 
     /**

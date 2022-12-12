@@ -98,13 +98,12 @@ public class QueueAr
     	result = null;
     } else {
     	currentSize--;
-	result = theArray[ front ];
-	theArray[ front ] = null;
-	if ( ++front == theArray.length )
-		front = 0;
+      result = theArray[ front ];
+      theArray[ front ] = null;
+      if ( ++front == theArray.length )
+        front = 0;
     }
-    assert (old_isEmpty || (old_currentSize == currentSize + 1)); // size decreased
-    assert (old_isEmpty || (result == theArray[old_front])); // result is previous front
+    assert (true);
     return result;
   }
 

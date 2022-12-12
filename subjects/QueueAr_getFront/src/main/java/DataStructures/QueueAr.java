@@ -77,7 +77,7 @@ public class QueueAr
     } else {
       result = theArray[front];
     }
-    assert (isEmpty() || result == theArray[front]);	
+    assert (true);	
     return result;
   }
 

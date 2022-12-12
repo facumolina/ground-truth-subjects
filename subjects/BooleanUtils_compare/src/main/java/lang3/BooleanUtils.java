@@ -47,9 +47,8 @@ public class BooleanUtils {
         } else {
         	result = x ? 1 : -1;
         }
-    	assert (true);
+        assert (true);
         return result;
     }
 
-  
 }

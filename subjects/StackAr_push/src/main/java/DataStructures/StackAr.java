@@ -96,10 +96,10 @@ public class StackAr
     public void push( Object x ) throws Overflow
     {
         int old_topOfStack = topOfStack;
-	if( isFull( ) )
+        if( isFull( ) )
             throw new Overflow( );
         theArray[ ++topOfStack ] = x;
-	assert(old_topOfStack==topOfStack-1 && theArray[topOfStack]==x);
+        assert(true);
     }
 
     /**

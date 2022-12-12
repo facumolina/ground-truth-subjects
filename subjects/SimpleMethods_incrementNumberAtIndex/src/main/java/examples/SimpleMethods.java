@@ -18,7 +18,7 @@ public class SimpleMethods {
 		// actual method
 		intArray[ind] = intArray[ind] + 1;
 		
-		assert (intArray[ind] == old_value+1);
+		assert (true);
 	}
 }
 

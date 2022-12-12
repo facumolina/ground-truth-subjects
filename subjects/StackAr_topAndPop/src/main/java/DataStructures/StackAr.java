@@ -106,13 +106,13 @@ public class StackAr
      */
     public Object topAndPop( )
     {   
-	int old_topOfStack = topOfStack;
-	Object old_top = top();
+        int old_topOfStack = topOfStack;
+        Object old_top = top();
         if( isEmpty( ) )
             return null;
         Object result = top( );
         theArray[ topOfStack-- ] = null;
-	assert (result==old_top && old_topOfStack==topOfStack+1);
+        assert(true);
         return result;
     }
 

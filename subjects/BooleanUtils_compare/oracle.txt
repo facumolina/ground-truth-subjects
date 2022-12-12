@@ -1,1 +1,3 @@
-(true);
+x = y implies result = 0
+(!x and y) implies result < 0
+(x and !y) implies result > 0

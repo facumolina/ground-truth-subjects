@@ -1,1 +1,3 @@
-(true);
+x < min implies result = min
+(x >= min and x > max) implies result = max
+(x >= min and x<=max) implies result = x

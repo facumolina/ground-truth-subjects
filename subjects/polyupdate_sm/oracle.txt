@@ -1,1 +1,1 @@
-
+result = s + sum(x)

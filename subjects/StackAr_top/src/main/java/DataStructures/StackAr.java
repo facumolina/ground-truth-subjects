@@ -75,8 +75,8 @@ public class StackAr
         if( isEmpty( ) )
             return null;
         Object result = theArray[ topOfStack ];
-    	assert(result == theArray [ topOfStack ]);
-	return result;
+    	assert(true);
+        return result;
     }
 
     /**

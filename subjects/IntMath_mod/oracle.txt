@@ -1,1 +1,1 @@
-(true);
+result = x % m or result = x % m + m

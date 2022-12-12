@@ -1,5 +1,1 @@
-(empty_buffer && capacity_set);
-(result == data.get(start));
-(result == (count() == capacity()));
-(data.contains(a_value));
-(empty);
+empty

@@ -1,1 +1,4 @@
-(true);
+c in children
+c.value = old(c.value)
+c.children = old(c.children)
+ancestors = old(ancestors)

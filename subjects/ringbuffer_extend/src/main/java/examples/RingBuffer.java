@@ -123,7 +123,6 @@ public class RingBuffer<G> {
             result = free == start - 1;
         // ensure
         // definition: Result = (count = capacity)
-        // assert (result == (count() == capacity()));
         return result;
     }
 
@@ -143,7 +142,6 @@ public class RingBuffer<G> {
         assert(true);
         // ensure
         // definition: sequence = old sequence.extended (a_value)
-        // assert (data.contains(a_value));
     }
 
     /**

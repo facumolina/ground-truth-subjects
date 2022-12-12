@@ -1,1 +1,2 @@
-(true);
+right = n
+n.right = old(right)

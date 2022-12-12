@@ -1,1 +1,2 @@
-(true);
+result <= x
+x < result + 1

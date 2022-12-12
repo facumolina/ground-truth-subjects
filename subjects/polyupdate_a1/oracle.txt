@@ -1,1 +1,2 @@
-
+x = old(x) + y
+(y > 0) implies s = old(s) + y

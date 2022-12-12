@@ -12,7 +12,7 @@ public class SimpleMethods {
 		if (intSet != null) {
 			intSet.add(element);
 		}
-		assert (intSet!=null && intSet.contains(element));
+		assert (true);
 	}
 }
 

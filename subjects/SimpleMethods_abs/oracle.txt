@@ -1,1 +1,1 @@
-(result == Math.abs(x));
+result == Math.abs(x)

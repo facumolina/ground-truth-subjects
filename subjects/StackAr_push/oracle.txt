@@ -1,1 +1,2 @@
-
+theArray[topOfStack]==x
+old(topOfStack)==topOfStack-1 

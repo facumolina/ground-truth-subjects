@@ -1,1 +1,2 @@
-
+assert(theArray[old_topOfStack] == null); // previous no longer present
+assert(topOfStack==old_topOfStack-1); // size decreased
