@@ -6,6 +6,10 @@ plugins {
 group 'simple-examples'
 version '1.0-SNAPSHOT'
 
+compileJava {
+    options.compilerArgs << '-parameters'
+}
+
 sourceCompatibility = 1.8
 
 repositories {
